@@ -1,0 +1,48 @@
+.order-form-container {
+  background-color: #f0f8ff;  /* Light blue background */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;  /* Darker text for better contrast */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+button {
+  background-color: #4CAF50;  /* Vibrant green submit button */
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;  /* Darker green on hover */
+}
+.submit-form{
+  display: flex;
+  flex-direction: column;
+}
+.track-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
