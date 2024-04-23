@@ -27,7 +27,7 @@ const OrderForm = () => {
     localStorage.setItem(contactNumber,contactNumber)
 
     try {
-      const response = await fetch("http://azure-storage-icloud.us-e2.cloudhub.io/azure/uploadBlob", {
+      const response = await fetch("https://azure-storage-icloud.us-e2.cloudhub.io/azure/uploadBlob", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(orderData),
